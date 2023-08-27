@@ -1,0 +1,43 @@
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*      flex direction ==> row
+        justifiy content ==> row ==> xيشتغل علي محور 
+        align items ==> yيشتغل علي محور 
+*/
+
+/*      flex direction ==> column
+        justifiy content ==> column ==> yيشتغل علي محور 
+        align items ==> xيشتغل علي محور       
+*/
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(238, 179, 77);
+}
+.parent{
+    width: 100% ;
+    height: 500px;
+    background-color:rgb(40, 28, 28) ;
+    display: flex;
+    justify-content:space-evenly;
+    /* defoult flex directoin row with justify content*/
+    align-items: center;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.item2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(238, 160, 77);
+}
+.parent2{
+    width: 100% ;
+    height: 900px;
+    background-color:rgb(40, 28, 28) ;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-evenly;
+    align-items: center;
+}

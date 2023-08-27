@@ -1,0 +1,21 @@
+.parent{
+    width: 100%;
+    overflow: auto;
+    background-color: bisque;
+    display: flex;
+}
+.content{
+    float: left;
+    width : 30%;
+    padding: 23px;
+}
+.klim{
+    padding-left: 30px;
+}
+.klm{
+    padding-left: 80px;
+}
+hr{
+    width: 400px;
+    color: black;
+}

@@ -1,0 +1,28 @@
+.grid-item {
+    background-color: rgb(82, 80, 80);
+    border: 1px solid rgb(93, 92, 92);
+    padding: 40px;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    
+  box-shadow: 10px 6px 20px 10px rgba(13, 13, 13, 0.19),10px 6px 20px 10px rgba(13, 13, 13, 0.2);
+  }
+  .grid-item:hover{
+    background-color: rgba(46, 45, 45, 0.9);
+    
+  }
+
+  .parent{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(44, 44, 139);
+    padding-top: 40px;
+  }
+  .btn{
+      background-color: rgb(33, 33, 66);
+      font-size: xx-large;
+      border-radius: 10px;
+      color: azure;
+     
+  }

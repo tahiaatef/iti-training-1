@@ -1,0 +1,22 @@
+.content_1{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(183, 122, 240);
+}
+.parent{
+    margin: 50px;
+    display: flex;
+}
+button{
+    margin-left: 20px;
+    color:white;
+    background-color:rgb(183, 122, 240);
+    border-radius: 5px;
+    font-size: larger;
+}
+.bebe{
+    padding-left: 20px;
+}
+.gaga{
+    margin-left: 20px;
+}

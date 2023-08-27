@@ -1,0 +1,22 @@
+.parent{
+    width: 100%;
+    background-color: rgb(254, 179, 209);
+   display: flex;
+  box-shadow: 10px 10px 10px 10px rgb(230, 173, 208);
+  
+}
+.content{
+    width : 30%;
+    padding-top: 23px;
+    padding-left: 35px;
+}
+.klim{
+    padding-left: 30px;
+}
+.klm{
+    padding-left: 80px;
+}
+hr{
+    width: 400px;
+    color: black;
+}

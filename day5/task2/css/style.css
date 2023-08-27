@@ -1,0 +1,36 @@
+.parent{
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+}
+.item1{
+    width: 50%;
+}
+.item2{
+    width: 50%;
+    display: flex;
+}
+.hr{
+    margin-top: 15px;
+    width: 1px;
+    height: 450px;
+    background-color: rgb(98, 97, 97);
+}
+.h2_design{
+    font-size: 70px;
+    color: gray;
+    padding-left: 40px;
+}
+.btn{
+    margin-left: 30px;
+    font-size:50px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    height: 100px;
+}
